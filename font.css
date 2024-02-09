@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Roboto","Poppins";
+    font-family: "San serif","Poppins";
     box-sizing: border-box;
 }
 
@@ -106,7 +106,7 @@ nav ul li a:hover::after{
 
 .image img{
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s ease;
@@ -207,7 +207,14 @@ nav ul li a:hover::after{
 
 #about{
     padding : 80 0;
-    /* color: #ababab; */
+    margin-top: 5%;
+}
+.about{
+    padding: 10px;
+}
+
+#skills{
+    font-size: 30px;
 }
 
 .row{
@@ -332,6 +339,9 @@ nav ul li a:hover::after{
   .progress-line .nextjs {
     width: 60%;
   } 
+  .progress-line .sql {
+    width: 60%;
+  }
 
 
   .progress-line span::before {
@@ -381,6 +391,9 @@ nav ul li a:hover::after{
   .progress-line .nextjs::after {
     content: "60%";
   }
+  .progress-line .sql::after {
+    content: "60%";
+  }
 
 
 .tab-content ul li .space {
@@ -393,6 +406,15 @@ nav ul li a:hover::after{
 
 .tab-content{
     display: none;
+    font-size: 20px;
+}
+
+.see-more{
+    font-size: 20px;
+    padding: 0%;
+    margin: 20px;
+    
+    
 }
 
 .active-tab{
